@@ -23,7 +23,7 @@ model = dict(
         anchors=1,
         strides=[8, 16, 32, 64],
         atss_warmup_epoch=4,
-        iou_type='giou',
+        iou_type='siou',
         use_dfl=False,
         reg_max=0 #if use_dfl is False, please set reg_max to 0
     )
